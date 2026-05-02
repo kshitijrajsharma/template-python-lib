@@ -40,4 +40,4 @@ jobs:
         with:
           enable-cache: true
       - run: uv sync --all-groups
-      - run: uv run pre-commit run --all-files --show-diff-on-failure
+      - uses: pre-commit/action@v3.0.1

@@ -19,7 +19,7 @@ from mylib import greet
 print(greet("world"))  # → "Hello, world!"
 ```
 
-## Why this stack?
+## About this stack:
 
 - **[uv]** - fast, all-in-one Python package manager (replaces pip, pip-tools, virtualenv, pyenv, twine).
 - **[ruff]** - linter + formatter, replaces black, isort, flake8, pyupgrade.
