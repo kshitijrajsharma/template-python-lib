@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "mylib"
-version = "0.1.0"
+version = "0.2.0"
 description = "A modern Python library."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -73,7 +73,7 @@ show_missing = true
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.1.0"
+version = "0.2.0"
 version_files = [
     "pyproject.toml:version",
     "src/mylib/__init__.py:__version__",
